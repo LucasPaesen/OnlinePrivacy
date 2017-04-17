@@ -410,7 +410,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h4 class="text-center" id="exif">4 - User agent vervalsen</h4>
+          <h4 class="text-center" id="agent">4 - User agent vervalsen</h4>
         </div>
       </div>
     </div>
@@ -428,11 +428,8 @@
                   <h4 class="modal-title">User agent vervalsen op Chrome</h4>
                 </div>
                 <div class="modal-body">
-                  <p>Surf naar de website http://www.encryptfiles.net/ en download hier de nieuwe versie van het programma “encryptfiles”, voor dit onderzoek ik er gebruik gemaakt van productversie 1.5. Op het moment dat je het programma open doet krijg
-                    je een venster te zien dat heel vergelijkbaar is met de verkenner op Windows. Hier is het de bedoeling dat je de bestanden of mappen gaat opzoeken die je wilt encrypteren. Als je de gewenste bestanden of mappen geselecteerd hebt kan
-                    je aan de linkerkant van het venster de optie ‘Encrypt’ aanklikken. Geef in het volgende venster het wachtwoord in dat gebruikt zal worden om je bestanden te beschermen. Druk nu op ‘Encrypt’ en je bestanden worden geencrypteer. Stel
-                    dat je nu dat bestand terug wilt decrypteren moet je gewoon terug hetzelfde bestand aanduiden en op de knop ‘Decrypt’ drukken. Het programma zal dan het wachtwoord vragen en als dit correct wordt ingegeven zal de encryptie ervan gehaald
-                    worden. Dit kan ook gedaan worden door andere computer die dit programma ook hebben, het kan dus een interessante oplossing zijn om bijvoorbeeld bestanden versleuteld te verzenden naar andere mensen. </p>
+                  <p>Hier maken we gebruik van de extensie “User-Agent Switcher for Chrome”. Deze extensie is gratis te downloaden in de Chrome Web Store. Vanaf het moment dat je de extensie geïnstalleerd heb zal je rechtsboven in je browser een icoon zien
+                    met een bril erop. Als je hierop klikt zal je kunnen kiezen tussen user-agents die je wilt gebruiken op die moment. </p>
                 </div>
                 <div class="modal-footer"> <button type="button" class="btn btn-default" data-dismiss="modal">Sluiten</button> </div>
               </div>
@@ -449,8 +446,8 @@
                   <h4 class="modal-title">User agent vervalsen op Edge</h4>
                 </div>
                 <div class="modal-body">
-                  <p>De ‘preview’ applicatie die standaard op je Mac toestel geïnstalleerd is, is in staat om bestanden te encrypteren. Je gaat dus het bestand dat je wilt encrypteren moeten openen in ‘Preview’, ga dan naar “File – Export as PDF”. Klik hierop
-                    en er zal een venster opengaan, druk nu op “Show details” onderaan en hierna krijg je het venster om encryptie toe te passen. Voer 2 keer je wachtwoord in en sla het bestand op.</p>
+                  <p>Voor deze browsers zijn er geen oplossingen mogelijk die makkelijk uit te voeren zijn door mensen zonder computerkennis. Er is wel de mogelijkheid om de user agent aan te passen in het register van de computer maar de complexiteit is
+                    zeer hoog, en de flexibiliteit (veranderen van user-agent) is zeer laag.</p>
                 </div>
                 <div class="modal-footer"> <button type="button" class="btn btn-default" data-dismiss="modal">Sluiten</button> </div>
               </div>
@@ -467,7 +464,8 @@
                   <h4 class="modal-title">User agent vervalsen op Firefox</h4>
                 </div>
                 <div class="modal-body">
-                  <p>Dit is jammer genoeg nog niet mogelijk maar het kan zijn dat hier in de toekomst wel applicaties in slagen om dit tot stand te brengen. </p>
+                  <p>Hier maken we gebruik van de extensie “User Agent Switcher”. Deze extensie is gratis te downloaden in de add-on winkel van Mozilla Firefox. Als we naar “Instellingen – Add-ons – Extensies” gaan zien we in deze lijst “User Agent Switcher”
+                    staan. Als we naast de extensie op opties duwen gaan we de opties krijgen om de user agent aan te passen of een volledig nieuwe aan te maken.</p>
                 </div>
                 <div class="modal-footer"> <button type="button" class="btn btn-default" data-dismiss="modal">Sluiten</button> </div>
               </div>
@@ -484,7 +482,8 @@
                   <h4 class="modal-title">User agent vervalsen op Internet Explorer</h4>
                 </div>
                 <div class="modal-body">
-                  <p>Dit is jammer genoeg nog niet mogelijk maar het kan zijn dat hier in de toekomst wel applicaties in slagen om dit tot stand te brengen. </p>
+                  <p>Voor deze browsers zijn er geen oplossingen mogelijk die makkelijk uit te voeren zijn door mensen zonder computerkennis. Er is wel de mogelijkheid om de user agent aan te passen in het register van de computer maar de complexiteit is
+                    zeer hoog, en de flexibiliteit (veranderen van user-agent) is zeer laag.</p>
                 </div>
                 <div class="modal-footer"> <button type="button" class="btn btn-default" data-dismiss="modal">Sluiten</button> </div>
               </div>
@@ -501,7 +500,8 @@
                   <h4 class="modal-title">User agent vervalsen op Opera</h4>
                 </div>
                 <div class="modal-body">
-                  <p>Dit is jammer genoeg nog niet mogelijk maar het kan zijn dat hier in de toekomst wel applicaties in slagen om dit tot stand te brengen. </p>
+                  <p>Hier maken we gebruik van de extensie “User-Agent Switcher”. Deze extensie is gratis te downloaden in de Chrome Web Store. Vanaf het moment dat je de extensie geïnstalleerd heb zal je rechtsboven in je browser een icoon zien van een
+                    wereldbol. Als je hierop klikt zal je kunnen kiezen tussen user-agents die je wilt gebruiken op die moment.</p>
                 </div>
                 <div class="modal-footer"> <button type="button" class="btn btn-default" data-dismiss="modal">Sluiten</button> </div>
               </div>
@@ -518,7 +518,9 @@
                   <h4 class="modal-title">User agent vervalsen op Safari</h4>
                 </div>
                 <div class="modal-body">
-                  <p>Dit is jammer genoeg nog niet mogelijk maar het kan zijn dat hier in de toekomst wel applicaties in slagen om dit tot stand te brengen.</p>
+                  <p>Voor safari moeten we geen programma’s of extensies van buitenaf moeten installeren, deze functie is ingebouwd in de browser. Open safari en druk op “Command +”, het voorkeuren menu moet nu verschijnen. Druk op het tabblad “geavanceerd”
+                    en vink onderaan het vinkje aan naast “Toon Onwikkel menu in de menu bar. Safari zal nu een nieuw menu hebben genaamd ‘Ontwikkelaars”. Druk hier nu op en druk op “User Agent”, hiernaast zal er een lijst verschijnen met de mogelijke
+                    opties waaruit je kan kiezen. Als je op “Andere” duwt zal je ook de optie krijgen om je eigen user-agent aan te maken.</p>
                 </div>
                 <div class="modal-footer"> <button type="button" class="btn btn-default" data-dismiss="modal">Sluiten</button> </div>
               </div>
