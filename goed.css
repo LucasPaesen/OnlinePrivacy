@@ -6014,4 +6014,4 @@ body > * {
   padding-top: 1em; }
 
 .modal-backdrop {
-  background-color: white; }
+  opacity: 0.5 !important; }
