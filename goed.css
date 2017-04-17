@@ -6012,3 +6012,6 @@ body > * {
 .midden {
   padding: 5%;
   padding-top: 1em; }
+
+.modal-backdrop {
+  background-color: red; }
