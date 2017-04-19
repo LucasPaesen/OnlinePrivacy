@@ -6015,3 +6015,15 @@ body > * {
 
 .modal-backdrop {
   opacity: 0.5 !important; }
+
+.btn-info {
+  background-color: white;
+  color: grey;
+  border-color: grey;
+  border-radius: 0.7em;
+  border-width: 0.2em; }
+
+.btn-info:hover {
+  background-color: grey;
+  color: white;
+  border-color: white; }
